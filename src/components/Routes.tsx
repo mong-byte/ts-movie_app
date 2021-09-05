@@ -5,9 +5,9 @@ import {
   Redirect,
   Switch,
 } from "react-router-dom";
-import Header from "./Header";
+import { Header } from ".";
 
-const Routes = () => {
+const Routes: React.FC = () => {
   return (
     <Router>
       <>
