@@ -1,4 +1,4 @@
-import { ROUTES } from "@src/utils/constants";
+import { ROUTES } from "src/utils/constants";
 import React from "react";
 import {
   Link,

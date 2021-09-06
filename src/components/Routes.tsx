@@ -1,3 +1,4 @@
+import TV from "src/pages/TV/TV";
 import React from "react";
 import {
   BrowserRouter as Router,
@@ -12,6 +13,9 @@ const Routes: React.FC = () => {
     <Router>
       <>
         <Header />
+        <Switch>
+          <Route path="/" exact component={TV} />
+        </Switch>
       </>
     </Router>
   );
